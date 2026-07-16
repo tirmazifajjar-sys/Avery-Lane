@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avery Lane | UI/UX Designer</title>
+    <meta
+      name="description"
+      content="A polished portfolio website for Avery Lane, a UI/UX designer creating elegant products, websites, and design systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Avery Lane home">
+        <span class="brand-mark">AL</span>
+        <span>Avery Lane</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#reel">Reel</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="mailto:hello@averylane.design">Start a project</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Portfolio introduction">
+        <img
+          class="hero-media"
+          src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1800&q=82"
+          alt="Designer desk with sketches, interface screens, and creative tools"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Independent UI/UX designer</p>
+          <h1>Avery Lane</h1>
+          <p>
+            Product interfaces, websites, and design systems with the kind of
+            clarity that helps people move, decide, and remember.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#work">Explore work</a>
+            <a class="button button-ghost" href="#reel">Watch the reel</a>
+          </div>
+        </div>
+        <div class="hero-status reveal" aria-label="Current availability">
+          <span>Now booking</span>
+          <strong>Q3 product sprints</strong>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Services and specialties">
+        <div class="ticker-track">
+          <span>UX Strategy</span>
+          <span>Product Design</span>
+          <span>Websites</span>
+          <span>Design Systems</span>
+          <span>Figma Prototypes</span>
+          <span>Launch Handoffs</span>
+          <span>UX Strategy</span>
+          <span>Product Design</span>
+          <span>Websites</span>
+          <span>Design Systems</span>
+        </div>
+      </section>
+
+      <section class="section intro-band">
+        <div class="intro-copy reveal">
+          <p class="eyebrow">Creative direction meets product discipline</p>
+          <h2>Every screen has a job. Every detail has a pulse.</h2>
+        </div>
+        <div class="intro-stats reveal" aria-label="Portfolio metrics">
+          <span><strong>34</strong> shipped launches</span>
+          <span><strong>8+</strong> years in product</span>
+          <span><strong>3x</strong> average engagement lift</span>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Case studies with real texture, clear outcomes, and visual range.</h2>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card case-card-large reveal">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=82"
+              alt="Analytics dashboard interface on a laptop"
+            />
+            <div class="case-copy">
+              <p>Fintech product design</p>
+              <h3>Northstar Finance</h3>
+              <span>
+                Rebuilt a dense investment dashboard into a guided workspace
+                with clearer priority, smarter onboarding, and faster decisions.
+              </span>
+            </div>
+          </article>
+
+          <article class="case-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=82"
+              alt="Laptop showing a website layout"
+            />
+            <div class="case-copy">
+              <p>Wellness website</p>
+              <h3>Canvas Health</h3>
+              <span>
+                A calmer booking journey, editorial art direction, and a visual
+                system built to feel premium without feeling distant.
+              </span>
+            </div>
+          </article>
+
+          <article class="case-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1000&q=82"
+              alt="Designer reviewing interface layouts on a tablet"
+            />
+            <div class="case-copy">
+              <p>SaaS UX system</p>
+              <h3>Peakline Workspace</h3>
+              <span>
+                Research, navigation, and reusable components for a team tool
+                that needed to feel powerful without getting noisy.
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section media-lab" id="reel">
+        <div class="reel-copy reveal">
+          <p class="eyebrow">Studio reel</p>
+          <h2>Motion, mood, and micro-interactions make the work feel alive.</h2>
+          <p>
+            A portfolio should show judgment, not just screenshots. This reel
+            area gives clients a quick sense of process, pacing, and taste.
+          </p>
+        </div>
+
+        <div class="reel-stage reveal">
+          <video
+            class="studio-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82"
+          >
+            <source
+              src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="video-caption">
+            <span>Looping studio reel</span>
+            <strong>Research, sketching, polish, handoff</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process">
+        <div class="process-media reveal">
+          <img
+            class="gif-preview"
+            src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif"
+            alt="Animated abstract interface loop"
+          />
+          <div class="prototype-overlay">
+            <span>Prototype loop</span>
+            <strong>From flow to feeling</strong>
+          </div>
+        </div>
+
+        <div class="process-list reveal">
+          <p class="eyebrow">Process</p>
+          <h2>A sharp path from messy idea to memorable product.</h2>
+          <ol>
+            <li>
+              <strong>01 / Diagnose</strong>
+              <span>Stakeholder interviews, product audit, user friction map.</span>
+            </li>
+            <li>
+              <strong>02 / Structure</strong>
+              <span>Flows, content hierarchy, wireframes, and testable prototypes.</span>
+            </li>
+            <li>
+              <strong>03 / Design</strong>
+              <span>Visual identity, interaction states, component logic, motion.</span>
+            </li>
+            <li>
+              <strong>04 / Ship</strong>
+              <span>Organized Figma files, specs, QA notes, and dev support.</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section quote-section">
+        <blockquote class="reveal">
+          Avery brought the rare mix of strategic restraint and visual nerve.
+          The redesign gave our product the confidence it had been missing.
+        </blockquote>
+        <div class="quote-author reveal">
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=82"
+            alt="Portrait of Leah Morgan"
+          />
+          <span>
+            <strong>Leah Morgan</strong>
+            Product Lead, Northstar
+          </span>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1000&q=82"
+            alt="Designer arranging color swatches and interface sketches"
+          />
+        </div>
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Let's make the next screen matter</p>
+          <h2>Need a designer who can shape the flow and the finish?</h2>
+          <p>
+            Tell me what you are building, what feels stuck, and what a
+            successful launch needs to change.
+          </p>
+          <a class="button button-dark" href="mailto:hello@averylane.design">
+            hello@averylane.design
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
